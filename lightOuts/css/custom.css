@@ -1,0 +1,82 @@
+body{
+	background: #E8E8E8;
+}
+#lightsOutBoard{
+height: 420px;
+width: 420px;
+margin: 0 auto;
+margin-top: 100px;
+border-radius: 12px;
+background: rgb(213, 213, 213);
+padding: 10px;
+box-shadow: 0px 10px 0px rgba(131, 131, 131, 0.3);
+}
+
+.lights{
+height: 80px;
+width: 80px;
+float: left;
+cursor: pointer;
+transition: transform .8s ease-in-out , background .5s ease;
+}
+
+.lightOff:hover{
+background: rgb(232, 232, 232);
+}
+
+.lightOn{
+background: rgb(249, 249, 38);
+}
+
+.lightOn:hover{
+background: rgb(229, 229, 5);
+}
+
+.lightOff{
+background: rgb(202, 202, 202);
+
+}
+
+.lightOn , .lightOff{
+	border-radius: 10px;
+	border: 5px solid rgb(213, 213, 213);
+}
+
+#solveLightsOut , #editLightsOut{
+background: rgb(229, 229, 229);
+border: 2px solid rgb(221, 221, 221);
+font-size: 16px;
+color: rgb(192, 192, 192);
+width: 100px;
+height: 36px;
+/* font-weight: bold; */
+margin-top: 30px;
+box-shadow: 0px 2px 2px rgba(245, 245, 245, 0.52);
+transition: background 0.8s ease;
+}
+#solveLightsOut:hover , #editLightsOut:hover{
+	background: rgb(239, 239, 239);
+}
+#editLightsOut{
+	margin-right: 10px;
+}
+
+#winScreen {
+height: 400px;
+width: 400px;
+font-family: 'Oswald' , sans-serif;
+/* margin: 0 auto; */
+background: rgba(250, 250, 5, 0.85);
+border-radius: 6px;
+/* position: relative; */
+text-align: center;
+line-height: 400px;
+/* z-index: 5; */
+font-size: 42px;
+font-weight: bold;
+color: rgb(216, 216, 40);
+text-shadow: 0px 3px 6px rgb(255, 255, 156);
+/* display: inline-block; */
+display: none;
+position: absolute;
+}
