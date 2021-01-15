@@ -1,4 +1,4 @@
-# LightsOutGame
+# Lights Out Game
 Old incompelte LightsOut game. Fun a little experiment in playing with binary matrices. 
 
 ![Lights Out](https://dl.dropboxusercontent.com/s/jah471rdswki66a/LightsOutGame.png?dl=0)
